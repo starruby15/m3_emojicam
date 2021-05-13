@@ -1,0 +1,75 @@
+body, html {
+  height: 100%;
+  font-family: "Papyrus", Monospace, Sans-serif;
+}
+
+textarea {
+  background: rgb(0, 136, 136, 0.4);
+  border: none;
+  height: 100px;
+  width: 400px;
+  box-shadow: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Papyrus", Monospace, Sans-serif;
+	background-color:#599bb3;
+	border-radius:none;
+  border: none;
+	color:#ffffff;
+  padding: 7px, 10px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+  top:1px;
+}
+.btn-group {
+  padding: 10px;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("/assets/wavebg.jpeg");
+
+  /* Add the blur effect */
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.label {
+  font-size: 10px;
+}
